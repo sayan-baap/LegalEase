@@ -1,10 +1,13 @@
-import { Button } from "@/components/ui/button";
+import { Button } from '@/components/ui/button';
+import React from 'react'
 
-export default function Home() {
+const Home = () => {
   return (
-<div>
-  <h1 className="text-3xl font-bold">Hello World</h1>
-  <Button>Click Me</Button>
-</div>
+    <div>
+      <h1 className="text-3xl font-bold">Hello World</h1>
+      <Button>Click Me</Button>
+    </div>
   );
 }
+
+export default Home
